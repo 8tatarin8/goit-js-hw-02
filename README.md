@@ -92,6 +92,7 @@ console.log(checkForSpam("[SPAM] How to earn fast money?")); // true
 Виклик функції checkForSpam("Trust me, this is not a spam message") повертає true
 Виклик функції checkForSpam("Get rid of sPaM emails. Our book in on sale!") повертає true
 Виклик функції checkForSpam("[SPAM] How to earn fast money?") повертає true
+
 Задача 4. Доставка товару
 ВИКОНУЙ ЦЕ ЗАВДАННЯ У ФАЙЛІ task-4.js
 Оголоси функцію getShippingCost(country), яка повинна перевіряти можливість доставки товару в країну користувача (параметр country) і повертати повідомлення про результат. Обов'язково використовуй інструкцію switch.
