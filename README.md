@@ -34,6 +34,7 @@ console.log(makeTransaction(10, 500, 5000)); // "You ordered 10 droids worth 500
 Виклик makeTransaction(10, 5000, 8000) повертає "Insufficient funds!"
 Виклик makeTransaction(8, 2000, 10000) повертає "Insufficient funds!"
 Виклик makeTransaction(10, 500, 5000) повертає "You ordered 10 droids worth 5000 credits!"
+
 Задача 2. Форматування повідомлення
 ВИКОНУЙ ЦЕ ЗАВДАННЯ У ФАЙЛІ task-2.js
 Оголоси функцію formatMessage(message, maxLength), яка приймає рядок (параметр message) та перевіряє його довжину відповідно до заданої максимальної довжини (параметр maxLength).
@@ -61,6 +62,7 @@ console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41)); // 
 Виклик функції formatMessage("Vestibulum facilisis purus nec", 30) повертає "Vestibulum facilisis purus nec"
 Виклик функції formatMessage("Nunc sed turpis a felis in nunc fringilla", 15) повертає "Nunc sed turpis..."
 Виклик функції formatMessage("Nunc sed turpis a felis in nunc fringilla", 41) повертає "Nunc sed turpis a felis in nunc fringilla"
+
 Задача 3. Перевірка спаму
 ВИКОНУЙ ЦЕ ЗАВДАННЯ У ФАЙЛІ task-3.js
 Функція checkForSpam(message) приймає рядок (параметр message), перевіряє його на вміст заборонених слів spam і sale, і повертає результат перевірки. Слова в рядку параметра message можуть бути в довільному регістрі, наприклад SPAM або sAlE.
